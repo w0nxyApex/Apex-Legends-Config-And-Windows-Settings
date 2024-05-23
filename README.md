@@ -183,7 +183,18 @@ Click Next to Install.
 
 ## NVIDIA 3D Settings
 
-Simply open the Nvidia Control Panel and go to 3D settings, select 'Custom,' select your game (i.e., the Apex r5apex.exe), and then apply the settings as shown in the pictures. You will then have good performance, but poor quality
+Simply open the Nvidia Control Panel and go to 3D settings, select 'Custom,' select your game (i.e., the Apex r5apex.exe), and then apply the settings as shown in the pictures. 
+You will then have good performance, but poor quality
+
+<p align="center">
+  <img src="images/nvidia3dsettings1.png" width="500"/>
+</p>
+<p align="center">
+  <img src="images/nvidia3dsettings2.png" width="500"/>
+</p>
+<p align="center">
+  <img src="images/nvidia3dsettings3.png" width="500"/>
+</p>
 
 ## Contributing
 
