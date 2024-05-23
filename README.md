@@ -2,14 +2,16 @@
 
 Hi, I'm a seasoned Apex Legends player who has achieved Master rank for many seasons using MNK. I'd like to share my settings and configurations with you, including Windows and NVIDIA settings, to help you achieve an optimal gaming experience without micro stutters and FPS lags. Remember, the effectiveness of these settings can vary based on your system and peripherals.
 
-By the way, it doesn't make any difference how good your settings and fps are - almost every console player with 0.6 AA will outgun you. Aloo have fun :)
+
+#### By the way, it doesn't make any difference how good your settings and fps are - almost every console player with 0.6 AA will outgun you. Aloo have fun :)
+
 
 I also got some of my settings from these people. //github.com/V3nilla, //github.com/kretz1xD, //github.com/deaFPS So stop by if you're interested.
 
 
 ## Apex Legends Optimization Guide
 
-Welcome to this Apex Legends optimization guide! This repository is designed to enhance your gameplay experience in Apex Legends through detailed configurations and optimizations for video settings, Windows settings, and NVIDIA settings, aimed at reducing micro stutters and FPS lags.
+This repository is designed to enhance your gameplay experience in Apex Legends through detailed configurations and optimizations for video settings, Windows settings, and NVIDIA settings, aimed at reducing micro stutters and FPS lags.
 
 
 
@@ -28,16 +30,6 @@ To optimize your gameplay, add the following commands to your launch options in 
 | `-m_rawinput 1`  | Ensures raw input is used for mouse movements |
 
 Example of full command line: `-high -preload -forcenovsync -dev -fullscreen +exec autoexec.cfg -m_rawinput 1`
-
-## Personal Settings Overview
-
-- **DPI Settings**: 1600 DPI
-- **Resolution & Field of View**:
-  - 1728x1080, 104 FOV
-  - 1920x1080, 106 FOV
-- **Monitor Settings**: 240 Hz with ULMB on, 360 Hz ULMB off
-- **FPS Settings**:
-  - 190 ore 240 FPS cap with RTSS
 
 
 ### Video Configuration (`videoconfig.txt`)
@@ -60,6 +52,9 @@ Adjust the following in your `videoconfig.txt` for optimal frame timing:
 - **Shadow and Lighting Effects**: Minimized to enhance FPS.
 
 [Videoconfig.txt](https://github.com/w0nxyApex/Apex-Legends-Config-And-Windows-Settings/blob/main/videoconfig.txt).
+You can simply copy my Videoconfig.txt and use it and replace yours with it. But check which fps you are playing at to set the correct frame times.
+and set the file to read only otherwise the game will change settings again.
+
 
 ### Autoexec Configuration (`autoexec.cfg`)
 
