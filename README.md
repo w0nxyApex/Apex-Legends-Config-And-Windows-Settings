@@ -71,14 +71,14 @@ The `autoexec.cfg` file pre-loads specific commands to enhance performance and i
 
 [autoexec.cfg](https://github.com/w0nxyApex/Apex-Legends-Config-And-Windows-Settings/blob/main/autoexec.cfg).
 
-### Windows Settings
+## Windows Settings
 
-## Ultimate Performance Mode in Windows
+### Ultimate Performance Mode in Windows
 
-### Overview
+#### Overview
 The Ultimate Performance Mode in Windows optimizes power settings to enhance system performance. This mode is particularly beneficial for workstations and users requiring maximum performance from their systems.
 
-### Activation Command
+#### Activation Command
 
 To activate Ultimate Performance Mode, which is not visible by default in Windows, use the following command in your command prompt:
 
@@ -102,8 +102,9 @@ Important Notes
 
 This format provides clear instructions and essential details, making it easy for users to understand and implement Ultimate Performance Mode. Adjust the steps as necessary to align with specific user environments or system configurations.
 
+### Improve Internet performance with the right MTU size
 
-### Calculating the Optimal MTU Size
+#### Calculating the Optimal MTU Size
 
 To determine the optimal MTU size without packet loss, use the `ping` command. Start with a high MTU size and adjust as necessary:
 
@@ -114,7 +115,7 @@ ping 8.8.8.8 -f -l 1492
 This command pings google.com with a specific packet size (1492 bytes) while setting the "Don't Fragment" flag.
 
 
-Checking Your Current MTU Size
+#### Checking Your Current MTU Size
 
 To view the current MTU size for all network interfaces on your system, use the following command:
 
@@ -123,7 +124,7 @@ To view the current MTU size for all network interfaces on your system, use the 
 netsh interface ipv4 show subinterfaces
 ```
 
-Setting the MTU Size
+#### Setting the MTU Size
 
 To set the MTU size for a specific network interface (e.g., Ethernet), use the following command:
 
