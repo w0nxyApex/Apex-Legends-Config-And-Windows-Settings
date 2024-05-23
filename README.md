@@ -3,10 +3,15 @@
 I'd like to share my settings and configurations with you, including Windows and NVIDIA settings, to help you achieve an optimal gaming experience without micro stutters and FPS lags. 
 Remember, the effectiveness of these settings can vary based on your system and peripherals.
 In this guide, you will find information on various settings:
-- [Video Configuration](#Steam-Game-Launch-Options)
-- [Apex Startup Options](#apex-startup-options)
-- [Gameplay Settings](#gameplay-settings)
-
+- [Apex Legends Guide](#Apex-Legends-Optimization-Guide)
+- - [Apex Legends Guide](#Apex-Legends-Optimization-Guide)
+- - [Apex Startup Options](#apex-startup-options)
+- - [Video Configuration](#Video-Configuration-(`videoconfig.txt`))
+- - [Autoexec Configuration](#Autoexec-Configuration-(`autoexec.cfg`))
+- [Windows Settings](#Windows-Settings-Guide)
+- - [Ultimate Performance](#Ultimate-Performance-Mode-in-Windows)
+- - [Improve Internet performance](#Improve-Internet-performance-with-the-right-MTU-size)
+- [NVIDIA-Settings](#NVIDIA-3D-Settings-Guide)
 #### By the way, it doesn't make any difference how good your settings and fps are - almost every console player with 0.6 AA will outgun you. Aloo have fun :)
 
 
@@ -148,7 +153,8 @@ Make sure to replace "Ethernet" with the actual name of your network interface i
 I would highly recommend that you watch this video before you reinstall your PC next time. Then you have a better Windows installation.([Video](https://www.youtube.com/watch?v=XQAIYCT4f8Q&list=WL&index=6))
 
 ## NVIDIA 3D Settings Guide
-
+### New NVIDIA Treiber 
+You can download the latest driver here ([Nvidia Treiber](könnhttps://www.nvidia.com/de-de/drivers/))
 Optimal NVIDIA 3D settings are provided to ensure the best balance between performance and visual fidelity. Keeping your drivers up to date is crucial to avoid any conflicts. Screenshots of these settings will be provided for easier replication.
 
 ## Contributing
