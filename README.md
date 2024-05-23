@@ -157,14 +157,29 @@ Optimal NVIDIA 3D settings are provided to ensure the best balance between perfo
 ### New NVIDIA Treiber 
 You can download the latest driver here ([Nvidia Treiber](https://www.nvidia.com/de-de/drivers/))
 Enter your graphics card type and your Windows installation details on the Nvidia website, then select 'Game Ready' for the latest graphics features or 'Studio Drivers' for the best stability, and download the file.
-Ok, you will find the file in your download folder. Double-click on it, 
-![NVIDIATREIBER](images/Nvidiatreiber1.png)
-
 <p align="center">
-  <img src="images/Nvidiatreiber1.png" width="200"/>
+  <img src="images/nvidiatreiber1.png" width="500"/>
 </p>
 
-then follow the instructions as described in the pictures. Choose 'Custom Installation' and only install the driver (not GeForce Experience). Then, go ahead and install.
+Ok, you will find the file in your download folder. Double-click on it, 
+
+<p align="center">
+  <img src="images/nvidiatreiber2.png" width="500"/>
+</p>
+
+then follow the instructions as described in the pictures. 
+<p align="center">
+  <img src="images/nvidiatreiber3.png" width="500"/>
+</p>
+
+Choose 'Custom Installation' and only install the driver (not GeForce Experience). Then, go ahead and install.
+<p align="center">
+  <img src="images/nvidiatreiber4.png" width="500"/>
+</p>
+Click Next to Install.
+<p align="center">
+  <img src="images/nvidiatreiber5.png" width="500"/>
+</p>
 
 ## NVIDIA 3D Settings
 
