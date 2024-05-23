@@ -45,7 +45,7 @@ Example of full command line: `-high -preload -forcenovsync -dev -fullscreen +ex
 
 
 
-### Video Configuration (`videoconfig.txt`)
+### Video Configuration
 This section explains the purpose and effects of various settings in the `videoconfig.txt` file to improve game performance and visual quality:
 
 
@@ -70,7 +70,7 @@ and set the file to read only otherwise the game will change settings again.
 
 
 
-### Autoexec Configuration (`autoexec.cfg`)
+### Autoexec Configuration
 
 The `autoexec.cfg` file pre-loads specific commands to enhance performance and in-game behavior:
 
