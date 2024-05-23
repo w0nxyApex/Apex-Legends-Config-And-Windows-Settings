@@ -1,10 +1,11 @@
 # Apex-Legends-Config-And-Windows-Settings
 Hi, about me, I was Master in Apex for many seasons on MNK. I'd like to share my settings and config with you here, as well as my Windows settings and NVIDIA settings for an optimal gaming experience without micro stutters and FPS lags. Of course, it always depends on your system and peripherals as well.
 
-Apex Legends Optimization Guide
+# Apex Legends Optimization Guide
 
 Welcome to my Apex Legends optimization guide! This repository contains detailed information and configurations to enhance your gameplay experience in Apex Legends. You will find optimizations for video settings, Windows, and NVIDIA configurations aimed at reducing micro stutters and FPS lags.
-Video Configuration (videoconfig.txt)
+
+# Video Configuration (videoconfig.txt)
 
 This section explains the purpose and effects of various settings in the videoconfig.txt file. Adjusting these settings can significantly improve game performance and visual quality.
 
@@ -14,8 +15,9 @@ Key settings include:
     Ragdoll Effects: Disabled to decrease CPU load.
     Shadow and Lighting Effects: Minimized to enhance FPS.
 
-You can view the detailed configuration here.
-Autoexec Configuration (autoexec.cfg)
+You can view the detailed configuration videoconfig.txt .
+
+# Autoexec Configuration (autoexec.cfg)
 
 The autoexec.cfg file allows you to pre-load specific commands that enhance performance and behavior in-game. It includes:
 
@@ -24,10 +26,12 @@ The autoexec.cfg file allows you to pre-load specific commands that enhance perf
     Graphical adjustments
 
 Details of these commands can be found in the autoexec.cfg file.
-Windows Settings
+
+# Windows Settings
 
 This section will cover various Windows Command Prompt commands to optimize network settings and adjust packet sizes for a smoother online experience. Details will be added soon.
-NVIDIA 3D Settings
+
+# NVIDIA 3D Settings
 
 Optimal NVIDIA 3D settings are provided to ensure the best balance between performance and visual fidelity. It is crucial to keep your drivers up to date to avoid any conflicts. Screenshots of these settings will be provided for easier replication.
 Steam Game Launch Options
