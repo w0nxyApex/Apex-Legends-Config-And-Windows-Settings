@@ -78,7 +78,7 @@ The `autoexec.cfg` file pre-loads specific commands to enhance performance and i
 - Default startup settings
 - Graphical adjustments
 
-[autoexec.cfg](https://github.com/w0nxyApex/Apex-Legends-Config-And-Windows-Settings/blob/main/autoexec.cfg).
+Place this file in your Steam or Origin storage location in the cfg folder. [autoexec.cfg](https://github.com/w0nxyApex/Apex-Legends-Config-And-Windows-Settings/blob/main/autoexec.cfg).
 
 
 ## Windows Settings Guide
