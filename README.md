@@ -97,6 +97,9 @@ powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 ```
 This command duplicates the hidden Ultimate Performance power scheme, enabling it for selection.
 Enabling Ultimate Performance Mode
+<p align="center">
+  <img src="images/cmdcommand1.png" width="500"/>
+</p>
 
 After running the command, follow these steps to activate the Ultimate Performance Mode:
 
@@ -121,6 +124,9 @@ To determine the optimal MTU size without packet loss, use the `ping` command. S
 ```bash
 ping 8.8.8.8 -f -l 1492
 ```
+<p align="center">
+  <img src="images/cmdcommand2.png" width="500"/>
+</p>
 
 This command pings google.com with a specific packet size (1492 bytes) while setting the "Don't Fragment" flag.
 
@@ -133,14 +139,19 @@ To view the current MTU size for all network interfaces on your system, use the 
 
 netsh interface ipv4 show subinterfaces
 ```
+If you have found the MTU size that allows your packets to arrive intact, set this size plus 28 as your MTU size.
 
 #### Setting the MTU Size
 
-To set the MTU size for a specific network interface (e.g., Ethernet), use the following command:
+If you have found the MTU size that your packets arrive in full, set this size + 28 as your MTU size. To set the MTU size for a specific network interface (e.g., Ethernet), use the following command:
 
 ```bash
 netsh int ipv4 set subinterface "Ethernet" mtu=1500 store=persistent
 ```
+
+<p align="center">
+  <img src="images/cmdcommand3.png" width="500"/>
+</p>
 
 This command sets the MTU size to 1500 for the Ethernet interface and makes the change persistent across reboots. And make sure you have chosen your largest MTU size that will be displayed without being fragmented. 1500 is maximum.
 here is a video from someone (https://www.youtube.com/watch?v=RK2PHpKI9M4)
