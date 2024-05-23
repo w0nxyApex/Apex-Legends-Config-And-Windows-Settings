@@ -5,7 +5,7 @@ Remember, the effectiveness of these settings can vary based on your system and 
 In this guide, you will find information on various settings:
 - [Apex Legends Guide](#Apex-Legends-Optimization-Guide)
 - - [Apex Legends Guide](#Apex-Legends-Optimization-Guide)
-- - [Apex Startup Options](#apex-startup-options)
+- - [Apex Startup Options](#Steam-Game-Launch-Options)
 - - [Video Configuration](#Video-Configuration-(`videoconfig.txt`))
 - - [Autoexec Configuration](#Autoexec-Configuration-(`autoexec.cfg`))
 - [Windows Settings](#Windows-Settings-Guide)
