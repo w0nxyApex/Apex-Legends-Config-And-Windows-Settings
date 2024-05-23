@@ -152,10 +152,11 @@ Make sure to replace "Ethernet" with the actual name of your network interface i
 #### Windows instalation
 I would highly recommend that you watch this video before you reinstall your PC next time. Then you have a better Windows installation.([Video](https://www.youtube.com/watch?v=XQAIYCT4f8Q&list=WL&index=6))
 
-## NVIDIA 3D Settings Guide
+## NVIDIA Guide
 ### New NVIDIA Treiber 
-You can download the latest driver here ([Nvidia Treiber](könnhttps://www.nvidia.com/de-de/drivers/))
+You can download the latest driver here ([Nvidia Treiber](https://www.nvidia.com/de-de/drivers/))
 Optimal NVIDIA 3D settings are provided to ensure the best balance between performance and visual fidelity. Keeping your drivers up to date is crucial to avoid any conflicts. Screenshots of these settings will be provided for easier replication.
+## NVIDIA 3D Settings
 
 ## Contributing
 
