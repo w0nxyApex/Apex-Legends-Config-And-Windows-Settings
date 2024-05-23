@@ -1,59 +1,59 @@
-# Apex-Legends-Config-And-Windows-Settings
-Hi, about me, I was Master in Apex for many seasons on MNK. I'd like to share my settings and config with you here, as well as my Windows settings and NVIDIA settings for an optimal gaming experience without micro stutters and FPS lags. Of course, it always depends on your system and peripherals as well.
+# Apex Legends Config and Windows Settings
 
-# Apex Legends Optimization Guide
+Hi, I'm a seasoned Apex Legends player who has achieved Master rank for many seasons using MNK. I'd like to share my settings and configurations with you, including Windows and NVIDIA settings, to help you achieve an optimal gaming experience without micro stutters and FPS lags. Remember, the effectiveness of these settings can vary based on your system and peripherals.
 
-Welcome to my Apex Legends optimization guide! This repository contains detailed information and configurations to enhance your gameplay experience in Apex Legends. You will find optimizations for video settings, Windows, and NVIDIA configurations aimed at reducing micro stutters and FPS lags.
+## Apex Legends Optimization Guide
 
-# Video Configuration (videoconfig.txt)
+Welcome to this Apex Legends optimization guide! This repository is designed to enhance your gameplay experience in Apex Legends through detailed configurations and optimizations for video settings, Windows settings, and NVIDIA settings, aimed at reducing micro stutters and FPS lags.
 
-This section explains the purpose and effects of various settings in the videoconfig.txt file. Adjusting these settings can significantly improve game performance and visual quality.
+### Steam Game Launch Options
 
-Key settings include:
+To optimize your gameplay, add the following commands to your launch options in Steam:
 
-    Particle Levels: Reduced to ensure minimal distraction and improve performance.
-    Ragdoll Effects: Disabled to decrease CPU load.
-    Shadow and Lighting Effects: Minimized to enhance FPS.
+| Command          | Description |
+|------------------|-------------|
+| `+exec`          | Executes a cfg file on startup |
+| `-dev`           | Skips EA intro on startup, can cause HUD flicker issues on NVIDIA cards |
+| `-fullscreen`    | Forces the game to launch in fullscreen mode |
+| `-high`          | Gives high priority to the game in system processes |
+| `-preload`       | Preloads game assets |
+| `-forcenovsync`  | Disables vertical sync |
+| `-m_rawinput 1`  | Ensures raw input is used for mouse movements |
 
-You can view the detailed configuration videoconfig.txt .
+Example of full command line: `-high -preload -forcenovsync -dev -fullscreen +exec autoexec.cfg -m_rawinput 1`
 
-# Autoexec Configuration (autoexec.cfg)
+### Video Configuration (`videoconfig.txt`)
 
-The autoexec.cfg file allows you to pre-load specific commands that enhance performance and behavior in-game. It includes:
+This section explains the purpose and effects of various settings in the `videoconfig.txt` file to improve game performance and visual quality:
 
-    Network optimizations
-    Default startup settings
-    Graphical adjustments
+- **Particle Levels**: Reduced to ensure minimal distraction and improve performance.
+- **Ragdoll Effects**: Disabled to decrease CPU load.
+- **Shadow and Lighting Effects**: Minimized to enhance FPS.
 
-Details of these commands can be found in the autoexec.cfg file.
+[Videoconfig.txt](https://github.com/w0nxyApex/Apex-Legends-Config-And-Windows-Settings/blob/main/videoconfig.txt).
 
-# Windows Settings
+### Autoexec Configuration (`autoexec.cfg`)
 
-This section will cover various Windows Command Prompt commands to optimize network settings and adjust packet sizes for a smoother online experience. Details will be added soon.
+The `autoexec.cfg` file pre-loads specific commands to enhance performance and in-game behavior:
 
-# NVIDIA 3D Settings
+- Network optimizations
+- Default startup settings
+- Graphical adjustments
 
-Optimal NVIDIA 3D settings are provided to ensure the best balance between performance and visual fidelity. It is crucial to keep your drivers up to date to avoid any conflicts. Screenshots of these settings will be provided for easier replication.
-Steam Game Launch Options
+[autoexec.cfg](https://github.com/w0nxyApex/Apex-Legends-Config-And-Windows-Settings/blob/main/autoexec.cfg).
 
-Customize your game launch options in Steam to fine-tune performance and user experience. Here are some recommended commands:
+### Windows Settings
 
-Command	Description
-+exec	Executes a cfg file on startup
--dev	Skips EA intro on startup, can cause HUD flicker issues on NVIDIA cards
--fullscreen	Forces the game to launch in fullscreen mode
--high	Gives high priority to the game in system processes
--preload	Preloads game assets
--forcenovsync	Disables vertical sync
--m_rawinput 1	Ensures raw input is used for mouse movements
+This section will cover various Windows Command Prompt commands to optimize network settings and adjust packet sizes for a smoother online experience. More details will be provided soon.
 
-Full command line example: -high -preload -forcenovsync -dev -fullscreen +exec autoexec.cfg -m_rawinput 1
-Contributing
+### NVIDIA 3D Settings
 
-Contributions are welcome! If you have any tweaks or additional settings that could help improve the guide, please feel free to fork this repository and submit a pull request.
-License
+Optimal NVIDIA 3D settings are provided to ensure the best balance between performance and visual fidelity. Keeping your drivers up to date is crucial to avoid any conflicts. Screenshots of these settings will be provided for easier replication.
 
-This project is released under the MIT License. See the LICENSE file for more details.
-Contact
+## Contributing
 
-For further assistance or to provide feedback, feel free to contact me [insert your contact information or link to your GitHub profile].
+Contributions are welcome! If you have any tweaks or additional settings that could help improve this guide, please feel free to fork this repository and submit a pull request.
+
+## License
+
+This project
