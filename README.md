@@ -73,7 +73,74 @@ The `autoexec.cfg` file pre-loads specific commands to enhance performance and i
 
 ### Windows Settings
 
-This section will cover various Windows Command Prompt commands to optimize network settings and adjust packet sizes for a smoother online experience. More details will be provided soon.
+## Ultimate Performance Mode in Windows
+
+### Overview
+The Ultimate Performance Mode in Windows optimizes power settings to enhance system performance. This mode is particularly beneficial for workstations and users requiring maximum performance from their systems.
+
+### Activation Command
+
+To activate Ultimate Performance Mode, which is not visible by default in Windows, use the following command in your command prompt:
+
+```bash
+powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+```
+This command duplicates the hidden Ultimate Performance power scheme, enabling it for selection.
+Enabling Ultimate Performance Mode
+
+After running the command, follow these steps to activate the Ultimate Performance Mode:
+
+    Open Control Panel.
+    Navigate to Hardware and Sound > Power Options.
+    Under Choose or customize a power plan, select Ultimate Performance.
+
+Important Notes
+
+    The Ultimate Performance mode is recommended for users who require maximum performance from their systems and is particularly useful on workstations.
+    Power Consumption: Be aware that enabling Ultimate Performance Mode may increase your system's power consumption significantly.
+    Recommended Use: This mode is recommended for users who need to maximize their system performance and is not typically necessary for general computing tasks.
+
+This format provides clear instructions and essential details, making it easy for users to understand and implement Ultimate Performance Mode. Adjust the steps as necessary to align with specific user environments or system configurations.
+
+
+### Calculating the Optimal MTU Size
+
+To determine the optimal MTU size without packet loss, use the `ping` command. Start with a high MTU size and adjust as necessary:
+
+```bash
+ping 8.8.8.8 -f -l 1492
+```
+
+This command pings google.com with a specific packet size (1492 bytes) while setting the "Don't Fragment" flag.
+
+
+Checking Your Current MTU Size
+
+To view the current MTU size for all network interfaces on your system, use the following command:
+
+```bash
+
+netsh interface ipv4 show subinterfaces
+```
+
+Setting the MTU Size
+
+To set the MTU size for a specific network interface (e.g., Ethernet), use the following command:
+
+```bash
+netsh int ipv4 set subinterface "Ethernet" mtu=1500 store=persistent
+```
+
+This command sets the MTU size to 1500 for the Ethernet interface and makes the change persistent across reboots. And make sure you have chosen your largest MTU size that will be displayed without being fragmented. 1500 is maximum.
+here is a video from someone (https://www.youtube.com/watch?v=RK2PHpKI9M4)
+
+Notes
+
+    Adjust the MTU values based on your specific network conditions and requirements.
+
+
+Make sure to replace "Ethernet" with the actual name of your network interface if it differs, and adjust the MTU values as necessary based on the results of your MTU size calculation.
+
 
 ### NVIDIA 3D Settings
 
