@@ -185,13 +185,19 @@ Click Next to Install.
 
 Simply open the Nvidia Control Panel and go to 3D settings, select 'Custom,' select your game (i.e., the Apex r5apex.exe), and then apply the settings as shown in the pictures. 
 You will then have good performance, but poor quality
-
+Choose advanced 3D settings
+<p align="center">
+  <img src="images/nvidia3dsettings0.png" width="500"/>
+</p>
+then go to Manage 3D Settings. Program Settings and select Apex Legends (r5apex.exe). Now apply the settings as in the pictures.
 <p align="center">
   <img src="images/nvidia3dsettings1.png" width="500"/>
 </p>
+
 <p align="center">
   <img src="images/nvidia3dsettings2.png" width="500"/>
 </p>
+
 <p align="center">
   <img src="images/nvidia3dsettinmgs3.png" width="500"/>
 </p>
