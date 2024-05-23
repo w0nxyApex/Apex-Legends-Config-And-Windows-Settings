@@ -193,7 +193,7 @@ You will then have good performance, but poor quality
   <img src="images/nvidia3dsettings2.png" width="500"/>
 </p>
 <p align="center">
-  <img src="images/nvidia3dsettings3.png" width="500"/>
+  <img src="images/nvidia3dsettinmgs3.png" width="500"/>
 </p>
 
 ## Contributing
