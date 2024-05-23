@@ -11,7 +11,10 @@ In this guide, you will find information on various settings:
 - [Windows Settings](#Windows-Settings-Guide)
 - - [Ultimate Performance](#Ultimate-Performance-Mode-in-Windows)
 - - [Improve Internet performance](#Improve-Internet-performance-with-the-right-MTU-size)
-- [NVIDIA-Settings](#NVIDIA-Guide)
+- [NVIDIA Settings](#NVIDIA-Guide)
+- - [NVIDIA New Driver](#New-NVIDIA-Driver)
+- - [NVIDIA Display](#NVIDIA-Display-Settings)
+- - [NVIDIA 3D Settings](#NVIDIA-3D-Settings)
 #### By the way, it doesn't make any difference how good your settings and fps are - almost every console player with 0.6 AA will outgun you. Aloo have fun :)
 
 
@@ -154,7 +157,8 @@ I would highly recommend that you watch this video before you reinstall your PC 
 
 ## NVIDIA Guide
 Optimal NVIDIA 3D settings are provided to ensure the best balance between performance and visual fidelity. Keeping your drivers up to date is crucial to avoid any conflicts. Screenshots of these settings will be provided for easier replication.
-### New NVIDIA Treiber 
+
+### New NVIDIA Driver 
 You can download the latest driver here ([Nvidia Treiber](https://www.nvidia.com/de-de/drivers/))
 Enter your graphics card type and your Windows installation details on the Nvidia website, then select 'Game Ready' for the latest graphics features or 'Studio Drivers' for the best stability, and download the file.
 <p align="center">
@@ -180,7 +184,9 @@ Click Next to Install.
 <p align="center">
   <img src="images/nvidiatreiber5.png" width="500"/>
 </p>
-##NVIDIA Display Settings
+
+### NVIDIA Display Settings
+
 Go to the display settings and select the desired resolution and Hz number. The Hz should be as high as possible; in my case, 360. However, if you cannot achieve smooth and constant FPS in your game at the level of your Hz number, choose a lower Hz, such as 240 or 144, whatever you have available. Alternatively, set your FPS to half or a quarter of your Hz number, for example, 180 FPS at 360 Hz, to ensure a smooth image.
 <p align="center">
   <img src="images/nvidiadisplay4.png" width="500"/>
@@ -198,7 +204,7 @@ I do not use G-Sync or FreeSync because I consistently achieve high FPS in my mo
   <img src="images/nvidiadisplay1.png" width="500"/>
 </p>
 
-## NVIDIA 3D Settings
+### NVIDIA 3D Settings
 
 Simply open the Nvidia Control Panel and go to 3D settings, select 'Custom,' select your game (i.e., the Apex r5apex.exe), and then apply the settings as shown in the pictures. 
 You will then have good performance, but poor quality
