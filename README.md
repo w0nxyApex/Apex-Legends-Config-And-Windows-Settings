@@ -1,7 +1,11 @@
 # Apex Legends Config and Windows Settings
 
-Hi, I'm a seasoned Apex Legends player who has achieved Master rank for many seasons using MNK. I'd like to share my settings and configurations with you, including Windows and NVIDIA settings, to help you achieve an optimal gaming experience without micro stutters and FPS lags. Remember, the effectiveness of these settings can vary based on your system and peripherals.
-
+I'd like to share my settings and configurations with you, including Windows and NVIDIA settings, to help you achieve an optimal gaming experience without micro stutters and FPS lags. 
+Remember, the effectiveness of these settings can vary based on your system and peripherals.
+In this guide, you will find information on various settings:
+- [Video Configuration](#Steam-Game-Launch-Options)
+- [Apex Startup Options](#apex-startup-options)
+- [Gameplay Settings](#gameplay-settings)
 
 #### By the way, it doesn't make any difference how good your settings and fps are - almost every console player with 0.6 AA will outgun you. Aloo have fun :)
 
@@ -32,6 +36,7 @@ To optimize your gameplay, add the following commands to your launch options in 
 Example of full command line: `-high -preload -forcenovsync -dev -fullscreen +exec autoexec.cfg -m_rawinput 1`
 
 
+
 ### Video Configuration (`videoconfig.txt`)
 This section explains the purpose and effects of various settings in the `videoconfig.txt` file to improve game performance and visual quality:
 
@@ -56,6 +61,7 @@ You can simply copy my Videoconfig.txt and use it and replace yours with it. But
 and set the file to read only otherwise the game will change settings again.
 
 
+
 ### Autoexec Configuration (`autoexec.cfg`)
 
 The `autoexec.cfg` file pre-loads specific commands to enhance performance and in-game behavior:
@@ -66,7 +72,8 @@ The `autoexec.cfg` file pre-loads specific commands to enhance performance and i
 
 [autoexec.cfg](https://github.com/w0nxyApex/Apex-Legends-Config-And-Windows-Settings/blob/main/autoexec.cfg).
 
-## Windows Settings
+
+## Windows Settings Guide
 
 ### Ultimate Performance Mode in Windows
 
@@ -140,7 +147,7 @@ Make sure to replace "Ethernet" with the actual name of your network interface i
 #### Windows instalation
 I would highly recommend that you watch this video before you reinstall your PC next time. Then you have a better Windows installation.([Video](https://www.youtube.com/watch?v=XQAIYCT4f8Q&list=WL&index=6))
 
-### NVIDIA 3D Settings
+## NVIDIA 3D Settings Guide
 
 Optimal NVIDIA 3D settings are provided to ensure the best balance between performance and visual fidelity. Keeping your drivers up to date is crucial to avoid any conflicts. Screenshots of these settings will be provided for easier replication.
 
