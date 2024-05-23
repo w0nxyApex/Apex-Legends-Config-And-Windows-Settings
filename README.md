@@ -141,7 +141,8 @@ Notes
 
 Make sure to replace "Ethernet" with the actual name of your network interface if it differs, and adjust the MTU values as necessary based on the results of your MTU size calculation.
 
-I would highly recommend that you watch this video before you reinstall your PC next time. Then you have a better Windows installation.(https://www.youtube.com/watch?v=RK2PHpKI9M4)
+#### Windows instalation
+I would highly recommend that you watch this video before you reinstall your PC next time. Then you have a better Windows installation.([Video](https://www.youtube.com/watch?v=XQAIYCT4f8Q&list=WL&index=6))
 
 ### NVIDIA 3D Settings
 
