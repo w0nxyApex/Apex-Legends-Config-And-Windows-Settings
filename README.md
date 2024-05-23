@@ -180,6 +180,23 @@ Click Next to Install.
 <p align="center">
   <img src="images/nvidiatreiber5.png" width="500"/>
 </p>
+##NVIDIA Display Settings
+Go to the display settings and select the desired resolution and Hz number. The Hz should be as high as possible; in my case, 360. However, if you cannot achieve smooth and constant FPS in your game at the level of your Hz number, choose a lower Hz, such as 240 or 144, whatever you have available. Alternatively, set your FPS to half or a quarter of your Hz number, for example, 180 FPS at 360 Hz, to ensure a smooth image.
+<p align="center">
+  <img src="images/nvidiadisplay4.png" width="500"/>
+</p>
+If you want more intense colors, set your Digital Vibrance high.
+<p align="center">
+  <img src="images/nvidiadisplay3.png" width="500"/>
+</p>
+Choose full screen.
+<p align="center">
+  <img src="images/nvidiadisplay2.png" width="500"/>
+</p>
+I do not use G-Sync or FreeSync because I consistently achieve high FPS in my monitor Hz number. G-Sync and FreeSync are technologies developed by NVIDIA and AMD, respectively, designed to eliminate screen tearing and reduce stuttering and input lag by synchronizing the display refresh rate to the output of the GPU. This is especially useful if your FPS fluctuates at the top end. If you experience such fluctuations, consider using G-Sync or FreeSync to stabilize the display performance.
+<p align="center">
+  <img src="images/nvidiadisplay1.png" width="500"/>
+</p>
 
 ## NVIDIA 3D Settings
 
