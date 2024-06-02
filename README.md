@@ -18,7 +18,7 @@ In this guide, you will find information on various settings:
 #### By the way, it doesn't make any difference how good your settings and fps are - almost every console player with 0.6 AA will outgun you. Aloo have fun :)
 
 
-I also got some of my settings from these people. //github.com/V3nilla, //github.com/kretz1xD, //github.com/deaFPS So stop by if you're interested.
+I also got some of my settings from these people - [V3nilla](https://github.com/V3nilla), [kretz1xD](https://github.com/kretz1xD), [deaFPS](https://github.com/deaFPS). So stop by if you're interested.
 
 
 ## Apex Legends Optimization Guide
