@@ -74,6 +74,7 @@ and set the file to read only otherwise the game will change settings again.
 
 The `autoexec.cfg` file pre-loads specific commands to enhance performance and in-game behavior:
 
+- Privacy settings!! Disables EA telemetry, Prevents the recording of communication to the server.
 - Network optimizations
 - Default startup settings
 - Graphical adjustments
