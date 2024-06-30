@@ -1,4 +1,6 @@
 # Rawaccel
+## Credits
+Special thanks to the developers of Rawaccel for creating this powerful and customizable mouse acceleration tool. Your hard work and dedication to the gaming community are greatly appreciated https://github.com/a1xd/rawaccel.
 
 ## Overview
 Rawaccel is a powerful tool for customizing mouse acceleration on Windows. It allows users to create precise acceleration and speed curves for better control and responsiveness. Rawaccel is particularly useful for competitive gamers who require fine-tuned mouse movements.
@@ -43,4 +45,3 @@ For support and community discussions, visit the [Rawaccel GitHub Page](https://
 
 ---
 
-**Enhance your gaming experience with precise and customizable mouse acceleration using Rawaccel!**
