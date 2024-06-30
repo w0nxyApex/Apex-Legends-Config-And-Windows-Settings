@@ -66,8 +66,11 @@ Adjust the following in your `videoconfig.txt` for optimal frame timing:
 
 [Videoconfig.txt](https://github.com/w0nxyApex/Apex-Legends-Config-And-Windows-Settings/blob/main/videoconfig.txt).
 You can simply copy my Videoconfig.txt and use it and replace yours with it. But check which fps you are playing at to set the correct frame times.
-and set the file to read only otherwise the game will change settings again.
 
+#### And set the file to read only otherwise the game will change settings again.
+<p align="center">
+  <img src="images/read-only.png" width="500"/>
+</p>
 
 
 ### Autoexec Configuration
