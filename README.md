@@ -165,7 +165,12 @@ Notes
 Make sure to replace "Ethernet" with the actual name of your network interface if it differs, and adjust the MTU values as necessary based on the results of your MTU size calculation.
 
 ```bash
-There are many additional ways to improve your performance in Windows. You can disable Game Mode, close unused applications, free up memory, and optimize your hard drive and RAM. Updating drivers, and using disk cleanup tools can also make a significant difference. Regularly scanning for malware and ensuring that your system is free from unnecessary startup programs can help maintain optimal performance. Additionally, keeping your system and game files on an SSD rather than a traditional HDD can greatly enhance load times and overall responsiveness.
+There are many additional ways to improve your performance in Windows.
+You can disable Game Mode, close unused applications, free up memory, and optimize your hard drive and RAM.
+Updating drivers, and using disk cleanup tools can also make a significant difference.
+Regularly scanning for malware and ensuring that your system is free from unnecessary startup programs can
+help maintain optimal performance. Additionally, keeping your system and game files on an SSD rather than a
+traditional HDD can greatly enhance load times and overall responsiveness.
 ```
 
 #### Windows instalation
