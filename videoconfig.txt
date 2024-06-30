@@ -27,7 +27,7 @@
 	"setting.last_display_height"		"1050"
 	"setting.nowindowborder"		"0"
 	"setting.fullscreen"		"1"
-	"setting.defaultres"		"1728"
+	"setting.defaultres"		"1728"	// set your preferred resolution here (I think 1680x1050 is better than 1728x1080 in terms of performance)
 	"setting.defaultresheight"		"1080"
 	"setting.volumetric_lighting"		"0"
 	"setting.volumetric_fog"		"0"
@@ -40,8 +40,8 @@
 	"setting.fadeDistScale"		"1.000000"
 	"setting.dvs_supersample_enable"		"0"
 	"setting.new_shadow_settings"		"0"
-	"setting.gamma"		"0.690000"
-	"setting.configversion"		"7"
+	"setting.gamma"		"0.710000"
+	"setting.configversion"		"8"
 	"setting.dx_version_check_timestamp"		"0"
 	"setting.set_dress_level"		"0"
 }
