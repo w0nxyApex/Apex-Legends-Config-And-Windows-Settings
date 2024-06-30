@@ -25,13 +25,13 @@ You can download RTSS from the official Guru3D website:
     Here you see the Frames capped by the game at 180 FPS, Here you see, constantly fluctuating fps.
 
 <p align="center">
-  <img src="../images/normalframecap.png" width="500"/>
+  <img src="/../images/normalframecap.png" width="500"/>
 </p>
 
     And here FPS capped with RTSS, a quiet, consistently high fps number. But you can only do this if you set an FPS limit in the range that your computer can produce without fluctuations.
 
 <p align="center">
-  <img src="../images/rtssframecap.png" width="500"/>
+  <img src="/../images/rtssframecap.png" width="500"/>
 </p>
 
 
