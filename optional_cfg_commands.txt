@@ -1,0 +1,354 @@
+// !!! Optional cfg Commands !!!
+
+// Because I don't play Apex anymore and don't have time to test everything. 
+// Here is a list of possible commands that you can test and write individually into your cfg. 
+// Whether it makes a difference or whether they have an effect. 
+// Remove the // and copy them individually into your cfg so that they can take effect.
+
+// Unsorted list of commands
+
+///////////////////
+// ¬ General.cfg ///
+///////////////////
+
+cl_autohelp "0"                          // Disables in-game help
+cl_showfps "1"                           // Displays FPS in the corner of the screen
+cl_showpos "1"                           // Displays position and velocity information
+cl_disablehtmlmotd "1"                   // Disables HTML messages of the day
+cl_forcepreload "1"                      // Forces the game to load all resources before starting
+
+///////////////////
+// ¬ Network.cfg ///
+///////////////////
+
+cl_cmdrate "128"                         // Sets the max number of command packets sent to server per second
+cl_updaterate "128"                      // Sets the number of updates per second from the server
+rate "786432"                            // Sets the max bytes per second for data
+cl_interp_ratio "1"                      // Sets interpolation amount (final amount is cl_interp_ratio / cl_updaterate)
+cl_interp "0"                            // Interpolation time (default is 0.1)
+cl_lagcompensation "1"                   // Enables lag compensation
+
+///////////////////
+// ¬ Mouse.cfg ///
+///////////////////
+
+m_rawinput "1"                           // Enables raw mouse input
+m_customaccel "0"                        // Disables mouse acceleration
+m_mouseaccel1 "0"                        // Additional mouse acceleration settings
+m_mouseaccel2 "0"                        // Additional mouse acceleration settings
+
+///////////////////
+// ¬ Audio.cfg ///
+///////////////////
+
+snd_mixahead "0.05"                      // Sets sound mix ahead time to reduce latency
+snd_headphone_pan_exponent "2"           // Adjusts panning of sound in headphones
+snd_headphone_pan_radial_weight "2"      // Adjusts radial weight of sound in headphones
+snd_async_fullyasync "1"                 // Enables full async sound
+
+///////////////////
+// ¬ Performance.cfg ///
+///////////////////
+
+mat_queue_mode "2"                       // Enables multi-threaded rendering
+r_threaded_particles "1"                 // Enables multi-threaded particle rendering
+r_threaded_renderables "1"               // Enables multi-threaded rendering of dynamic objects
+r_queued_decals "1"                      // Enables queued decal rendering
+cl_threaded_bone_setup "1"               // Enables multi-threaded bone setup
+cl_threaded_client_leaf_system "1"       // Enables multi-threaded client leaf system
+r_threaded_client_shadow_manager "1"     // Enables multi-threaded shadow manager
+
+///////////////////
+// ¬ Visual.cfg ///
+///////////////////
+
+r_drawtracers_firstperson "0"            // Disables first person viewmodel tracers
+r_drawparticles "0"                      // Disables particles
+r_dynamic "0"                            // Disables dynamic lighting
+r_maxdlights "32"                        // Limits the number of dynamic lights
+r_lod "-1"                               // Sets level of detail (-1 to 2)
+fog_enable "0"                           // Disables fog
+fog_enable_water_fog "0"                 // Disables water fog
+mat_disable_bloom "1"                    // Disables bloom effect
+mat_disable_fancy_blending "1"           // Disables fancy blending
+mat_hdr_level "0"                        // Disables high dynamic range lighting
+mat_monitorgamma "2.2"                   // Sets monitor gamma (brightness)
+
+///////////////////
+// ¬ Misc.cfg ///
+///////////////////
+
+hud_scaling "0.95"                       // Scales the HUD
+cl_hud_playercount_showcount "1"         // Shows player count on HUD
+cl_hud_playercount_pos "0"               // Sets player count position on HUD
+cl_draw_only_deathnotices "1"            // Draws only death notices on the HUD
+net_graph "1"                            // Displays network information graph
+net_graphproportionalfont "0"            // Uses proportional font for net graph
+net_graphheight "64"                     // Sets height of net graph
+net_graphpos "1"                         // Sets position of net graph
+
+// Useful commands for troubleshooting
+developer "1"                            // Enables developer mode (for more detailed console output)
+con_timestamp "1"                        // Adds timestamp to console log
+
+
+///////////////////
+// ¬ Grafik.cfg ///
+///////////////////
+
+cl_c4dynamiclight "1"
+cl_ejectbrass "0"
+cl_phys_props_max "0"
+cl_ragdoll_physics_enable "0"
+cl_show_splashes "0"
+mat_antialias "0"
+mat_bloomscale "0"
+mat_bumpmap "0"
+mat_forceaniso "0"
+mat_picmip "2"
+mat_reducefillrate "1"
+mat_specular "0"
+mat_trilinear "0"
+mat_vsync "0"
+mp_decals "300"
+muzzleflash_light "1"
+props_break_max_pieces "0"
+r_renderoverlayfragment "0"
+rope_averagelight "0"
+rope_collide "0"
+rope_smooth "0"
+rope_subdiv "0"
+rope_wind_dist "0.01"
+r_shadows "1"
+r_rootlod "2"
+r_waterdrawreflection "0"
+r_reducefillrate "0"
+r_ambientboost "0"
+r_avglight "0"
+r_cheapwaterend "1"
+r_cheapwaterstart "1"
+r_decal_cullsize "1"
+r_decals "300"
+r_drawflecks "0"
+r_drawmodeldecals "0"
+r_dynamic "0"
+r_eyes "0"
+r_fastzreject "1"
+r_lightaverage "0"
+r_modellodscale "1"
+r_maxmodeldecal "5"
+r_norefresh "1"
+r_occlusion "1"
+r_shadowrendertotexture "32"
+r_spray_lifetime "10"
+r_teeth "0"
+r_waterforceexpensive "0"
+r_worldlights "2"
+r_lod "0"
+r_ropetranslucent "0"
+
+snd_digital_surround "0"
+snd_surround_speakers "5"
+dsp_slow_cpu "0"
+dsp_vol_2ch "0"
+dsp_vol_4ch "0"
+dsp_vol_5ch "1"
+volume "1.0"
+voice_scale "0"
+closecaption "0"
+snd_musicvolume "0"
+snd_mixahead ".1"
+
+///////////////////
+// ¬ FPS.cfg ///
+///////////////////
+
+r_sse "1"
+r_sse2 "1"
+r_3dnow "1"
+r_mmx "1"
+r_renderoverlayfragment "0"
+cl_c4dynamiclight "1"
+cl_ejectbrass "0"
+cl_phys_props_max "0"
+cl_ragdoll_physics_enable "0"
+cl_show_splashes "0"
+rope_averagelight "0"
+rope_collide "0"
+rope_shake "0"
+rope_smooth "0"
+rope_smooth_minwidth "0"
+rope_smooth_minalpha "0"
+rope_smooth_maxalphawidth "0"
+rope_smooth_maxalpha "0"
+rope_smooth_enlarge "0"
+rope_subdiv "0"
+rope_wind_dist "0.01"
+mp_decals "300"
+muzzleflash_light "1"
+props_break_max_pieces "-1"
+fps_max "1000"
+gl_clear "1"
+budget_show_history "0"
+cl_minmodels "1"
+cl_min_ct "2"
+cl_min_t "3"
+con_enable "1"
+datacachesize "128"
+lightcache_maxmiss "2"
+net_showevents "0"
+violence_ablood "1"
+budget_show_history "0"
+props_break_max_pieces "0"
+gl_clear "1"
+lod_enable "1"
+cl_autowepswitch "0"
+cl_autohelp "0"
+cl_c4dynamiclight "0"
+cl_c4progressbar "1"
+cl_forcepreload "1"
+cl_phys_props_max "0"
+cl_radartype "1"
+cl_righthand "0"
+cl_rumblescale "0"
+cl_restrict_server_commands "0"
+cl_ragdoll_collide "0"
+cl_ragdoll_physics_enable "0"
+cl_show_splashes "0"
+cl_wpn_sway_interp "0"
+mat_antialias "0"
+mat_bloomscale "0"
+mat_bumpmap "0"
+mat_clipz "1"
+mat_colorcorrection "0"
+mat_fastnobump "1"
+mat_fastspecular "1"
+mat_forceaniso "0"
+mat_force_ps_patch "0"
+mat_monitorgamma "1.6"
+mat_hdr_enabled "0"
+mat_hdr_level "0"
+mat_picmip "2"
+mat_reducefillrate "1"
+mat_specular "0"
+mat_trilinear "0"
+mat_wateroverlaysize "16"
+mat_vsync "0"
+mat_disable_ps_patch "0"
+mat_use_compressed_hdr_textures "1"
+mat_bufferprimitives "1"
+mat_compressedtextures "1"
+mat_forcemanagedtextureintohardware "1"
+mat_debugdepth "0"
+mat_debugdepthmode "0"
+mat_showlightmapcomponent "0"
+mat_aaquality "0"
+
+r_3dsky "0"
+r_ambientboost "0"
+r_avglight "0"
+r_cheapwaterend "1"
+r_cheapwaterstart "1"
+r_decal_cullsize "1"
+r_decals "300"
+r_drawflecks "0"
+r_drawmodeldecals "0"
+r_dynamic "0"
+r_entity "-1"
+r_eyes "0"
+r_fastzreject "1"
+r_lightaverage "0"
+r_modellodscale "1"
+r_maxmodeldecal "5"
+r_norefresh "1"
+r_occlusion "1"
+r_renderoverlayfragment "0"
+r_rootlod "2"
+r_shadows "1"
+r_shadowrendertotexture "32"
+r_spray_lifetime "10"
+r_teeth "0"
+r_waterforceexpensive "0"
+r_worldlights "2"
+r_lod "0"
+r_ropetranslucent "0"
+
+rope_rendersolid "0"
+
+snd_digital_surround "0"
+snd_surround_speakers "5"
+dsp_slow_cpu "0"
+dsp_vol_2ch "0"
+dsp_vol_4ch "0"
+dsp_vol_5ch "1"
+volume "1.0"
+voice_scale "0"
+closecaption "0"
+snd_musicvolume "0"
+snd_mixahead ".1"
+
+mat_savechanges
+con_filter_text "Damage Given To"
+
+m_acceleration "0" // This makes sure mouse acceleration is off
+hud_setting_minimapRotate "1" // This setting allows the minimap to rotate with you (default 0)
+sprint_view_shake_style "1" // Less Headbob
+hud_setting_pingAlpha "0.4" // * Opacity of the pings and downed banners (default 1)
+player_setting_damage_closes_deathbox_menu "0" // Your inventory won't auto-close anymore when receiving damage
+chroma_enable 0 // Disables Razer Chroma
+hud_setting_adsDof "0" // * Minimizes ADS Depth of Field (Doesn't remove it completely)
+CrossPlay_user_optin "1" // * 0 Disables Crossplay
+fov_disableAbilityScaling "1" // Fov does not change when activating abilities
+localClientPlayerCachedLevel "25" // * Fixes Unable to queue ranked when your teammates see you as lvl 1
+mat_gamma 1
+
+/ Audio---------------------------------------------------------
+
+miles_channels 2 // * Tells the number of audio channels to the audio engine, try 8 if you're using one of those fake 7.1 headsets
+sound_num_speakers 2 // * Also Number of your audio channels
+sound_without_focus 1 // Game does not stop to play sound when tabbed out
+
+
+// PRIVACY-SETTINGS----------------------------------------------
+
+telemetry_client_enable 0 // * Disables EA Telemetry
+telemetry_client_sendInterval 0 // * Disables EA Telemetry
+pin_opt_in 0 // Opts out of Respawn Data surveys
+pin_plat_id 0 // Opts out of Respawn Data surveys
+voice_forcemicrecord 0 // * Denies recording of comms to the server
+
+
+// GRAPHICS-BASED-COMMANDS---------------------------------------
+
+mat_vsync 0 // Disables V-Sync
+fps_max 0 // * Unlocks Framerate
+mat_mipmaptextures 0
+mat_postprocess_enable 0
+mat_picmip 4 // * Basically this is the texture Quality controller of the game 4 = Lowest ... 1 = High
+stream_memory "300000" // Change this to 0 if you want to use mat_picmip 4 (default 300000)
+ssao_enabled 0 // Disables SSAO
+sssss_enable 0 // * Disables Screen Space Subsurface Scattering
+particle_cpu_level 0 // * Reduces the quality of particles
+cl_ragdoll_maxcount 0 // Disables Ragdoll
+cl_ragdoll_self_collision 0
+cl_particle_fallback_multiplier 0 // * Multiplier for falling back to cheaper effects under load
+cl_particle_fallback_base 4 // * Base for falling back to cheaper effects under load, higher values = lower quality (thanks to the guy that drew my attention to it in the issues tab)
+noise_filter_scale 0 // * Removes Film-grain
+
+mat_bloom_scalefactor_scalar 0 // * Disables bloom (nothing to do with recoil)
+mat_bloomscale 0
+mat_disable_bloom 1
+
+r_createmodeldecals 0 // Game does not create decals (bullet impacts etc)
+nx_static_lobby_mode 2 // * Nintendo switch cvar that got somehow into the main game, "2" reduces loading times
+cl_gib_allow 0 // * Allow gibs
+cl_gib_attack_dir_scale 0
+r_cleardecals // * Clears all decals on exec
+r_dynamic 0
+
+cl_debugClientEntities 0
+r_cullshadowworldmeshes 0
+r_deferred_decals 0
+shadow_always_update 0
+shadow_maxdynamic 0
+func_break_max_pieces 0
