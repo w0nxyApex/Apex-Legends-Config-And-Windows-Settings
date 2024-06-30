@@ -192,7 +192,7 @@ Choose 'Custom Installation' and only install the driver (not GeForce Experience
 <p align="center">
   <img src="images/nvidiatreiber4.png" width="500"/>
 </p>
-Click Next to Install.
+Click Next to Install. Check mark, Perform a clean installation. If you want to delete all old driver data. That could be good, but you might forget the settings you had before.
 <p align="center">
   <img src="images/nvidiatreiber5.png" width="500"/>
 </p>
