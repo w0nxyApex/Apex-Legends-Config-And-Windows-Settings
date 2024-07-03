@@ -179,8 +179,11 @@ traditional HDD can greatly enhance load times and overall responsiveness.
 #### Windows instalation
 I would highly recommend that you watch this video before you reinstall your PC next time. Then you have a better Windows installation.([Video](https://www.youtube.com/watch?v=XQAIYCT4f8Q&list=WL&index=6))
 
+
 ## NVIDIA Guide
 Optimal NVIDIA 3D settings are provided to ensure the best balance between performance and visual fidelity. Keeping your drivers up to date is crucial to avoid any conflicts. Screenshots of these settings will be provided for easier replication.
+You should delete Nvidia GeForce Expiriance (because it can cause micro stuters). And also delete your old driver data and perform a clean installation.
+
 
 ### New NVIDIA Driver 
 You can download the latest driver here ([Nvidia Treiber](https://www.nvidia.com/de-de/drivers/))
