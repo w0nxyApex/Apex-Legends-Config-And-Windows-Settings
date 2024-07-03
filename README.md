@@ -182,7 +182,7 @@ I would highly recommend that you watch this video before you reinstall your PC 
 
 ## NVIDIA Guide
 Optimal NVIDIA 3D settings are provided to ensure the best balance between performance and visual fidelity. Keeping your drivers up to date is crucial to avoid any conflicts. Screenshots of these settings will be provided for easier replication.
-You should delete Nvidia GeForce Expiriance (because it can cause micro stuters). And also delete your old driver data and perform a clean installation.
+You should **delete Nvidia GeForce Expiriance** (because it can cause micro stuters). And also delete your old driver data and perform a clean installation.
 
 
 ### New NVIDIA Driver 
@@ -203,6 +203,7 @@ then follow the instructions as described in the pictures.
   <img src="images/nvidiatreiber3.png" width="500"/>
 </p>
 
+**Tipp**: Have uninstalled nvidia geforce experience before!
 Choose 'Custom Installation' and only install the driver (not GeForce Experience). Then, go ahead and install.
 <p align="center">
   <img src="images/nvidiatreiber4.png" width="500"/>
