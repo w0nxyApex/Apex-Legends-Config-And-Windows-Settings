@@ -59,6 +59,12 @@ Adjust the following in your `videoconfig.txt` for optimal frame timing:
                          "setting.dvs_gpuframetime_min"	`"4166"`     
   - Optimal for 299 FPS: "setting.dvs_gpuframetime_min" `"3340"`
                          "setting.dvs_gpuframetime_min"	`"3340"`
+    
+Change the values ​​here. To do this, open your video config file with a text editor. Or replace it with mine, but then you have to adjust your resulution
+<p align="center">
+  <img src="images/videoconfigfile.png" width="500"/>
+</p>
+
 
 - **Particle Levels**: Reduced to ensure minimal distraction and improve performance.
 - **Ragdoll Effects**: Disabled to decrease CPU load.
