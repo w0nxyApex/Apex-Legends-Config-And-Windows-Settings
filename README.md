@@ -186,7 +186,7 @@ You should **delete Nvidia GeForce Expiriance** (because it can cause micro stut
 
 
 ### New NVIDIA Driver 
-You can download the latest driver here ([Nvidia Treiber](https://www.nvidia.com/de-de/drivers/))
+You can download the latest driver here ([Nvidia Treiber](https://www.nvidia.com/de-de/drivers/)), Uninstall NVIDIA GeForce Experience before.
 Enter your graphics card type and your Windows installation details on the Nvidia website, then select 'Game Ready' for the latest graphics features or 'Studio Drivers' for the best stability, and download the file.
 <p align="center">
   <img src="images/nvidiatreiber1.png" width="500"/>
