@@ -71,7 +71,7 @@ Change the values ​​here. To do this, open your video config file with a tex
 - **Shadow and Lighting Effects**: Minimized to enhance FPS.
 
 [Videoconfig.txt](https://github.com/w0nxyApex/Apex-Legends-Config-And-Windows-Settings/blob/main/videoconfig.txt).
-You can simply copy my Videoconfig.txt and use it and replace yours with it. But check which fps you are playing at to set the correct frame times. And Change the resulution to yours.
+You can simply copy my Videoconfig.txt and use it to replace yours. However, check which FPS you are playing at to set the correct frame times, and change the resolution to yours..
 
 #### And set the file to read only otherwise the game will change settings again.
 <p align="center">
