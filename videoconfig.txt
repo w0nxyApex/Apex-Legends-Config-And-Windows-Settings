@@ -20,10 +20,10 @@
 	"setting.ssao_enabled"		"0"
 	"setting.ssao_downsample"		"3"
 	"setting.dvs_enable"		"0"
-	"setting.dvs_gpuframetime_min"		"4080"
+	"setting.dvs_gpuframetime_min"		"4080"		// I used these values ​​here at _gpuframetime_min/max because I play at 180 fps
 	"setting.dvs_gpuframetime_max"		"5600"
 	"setting.sound_volume"		"0.415714"
-	"setting.last_display_width"		"1680"
+	"setting.last_display_width"		"1680"	
 	"setting.last_display_height"		"1050"
 	"setting.nowindowborder"		"0"
 	"setting.fullscreen"		"1"
