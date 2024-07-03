@@ -203,7 +203,7 @@ then follow the instructions as described in the pictures.
   <img src="images/nvidiatreiber3.png" width="500"/>
 </p>
 
-**Tipp**: Have uninstalled nvidia geforce experience before!
+**Tipp**: **Have uninstalled nvidia geforce experience before!**
 Choose 'Custom Installation' and only install the driver (not GeForce Experience). Then, go ahead and install.
 <p align="center">
   <img src="images/nvidiatreiber4.png" width="500"/>
