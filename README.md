@@ -33,13 +33,13 @@ To optimize your gameplay, add the following commands to your launch options in 
 
 | Command          | Description |
 |------------------|-------------|
-| `+exec`          | Executes a cfg file on startup |
-| `-dev`           | Skips EA intro on startup, can cause HUD flicker issues on NVIDIA cards |
-| `-fullscreen`    | Forces the game to launch in fullscreen mode |
-| `-high`          | Gives high priority to the game in system processes |
-| `-preload`       | Preloads game assets |
-| `-forcenovsync`  | Disables vertical sync |
-| `-m_rawinput 1`  | Ensures raw input is used for mouse movements |
+| `+exec autoexec.cfg`      | Executes a cfg file on startup |
+| `-dev`                    | Skips EA intro on startup, can cause HUD flicker issues on NVIDIA cards |
+| `-fullscreen`             | Forces the game to launch in fullscreen mode |
+| `-high`                   | Gives high priority to the game in system processes |
+| `-preload`                | Preloads game assets |
+| `-forcenovsync`           | Disables vertical sync |
+| `-m_rawinput 1`           | Ensures raw input is used for mouse movements |
 
 Example of full command line: `-high -preload -forcenovsync -dev -fullscreen +exec autoexec.cfg -m_rawinput 1`
 
