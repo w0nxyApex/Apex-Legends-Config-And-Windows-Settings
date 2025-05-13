@@ -40,6 +40,7 @@ To optimize your gameplay, add the following commands to your launch options in 
 | `-preload`                | Preloads game assets |
 | `-forcenovsync`           | Disables vertical sync |
 | `-m_rawinput 1`           | Ensures raw input is used for mouse movements |
+| `+cl_showpos 1`           | It displays player position data in real-time on the top-left |
 
 Example of full command line: `-high -preload -forcenovsync -dev -fullscreen +exec autoexec.cfg -m_rawinput 1`
 
